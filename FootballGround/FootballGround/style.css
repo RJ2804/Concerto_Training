@@ -1,0 +1,136 @@
+
+.container
+{
+    /* background-color: green; */
+    background-image: linear-gradient(to right, rgb(5, 83, 5) ,rgb(8, 150, 8), rgb(5, 83, 5));
+    width: 1500px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.border
+{
+    border-style: solid;
+    border-color: white;
+}
+
+.leftouterchild
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 660px;
+    width: 730px;
+    position: absolute;
+}
+
+.rightouterchild
+{
+    margin-top: 20px;
+    margin-left: 750px;
+    height: 660px;
+    width: 730px;
+    position: absolute;
+}
+
+.outerboxofleftchild
+{
+    height: 300px;
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 0px;
+}
+
+.outerboxofrightchild
+{
+    height: 300px;
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 527px;
+}
+
+.innerboxofleftchild
+{
+    height: 150px;
+    width: 100px;
+    margin-top: 75px;
+    margin-right: 98px;
+}
+
+.innerboxofrightchild
+{
+    height: 150px;
+    width: 100px;
+    margin-top: 75px;
+    margin-left: 98px;
+}
+
+.lefthalfarc
+{
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 650px;
+    border-radius: 150px 0 0 150px;
+}
+
+.righthalfarc
+{
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 750px;
+    border-radius: 0 150px 150px 0;
+}
+
+.outerlefthalfarc
+{
+    position: absolute;
+    height: 160px;
+    width: 70px;
+    margin-left: 225px;
+    margin-top: 270px;
+    border-radius: 0 150px 150px 0;
+}
+
+.outerrighthalfarc
+{
+    position: absolute;
+    height: 160px;
+    width: 70px;
+    margin-left: 1207px;
+    margin-top: 270px;
+    border-radius: 150px 0 0  150px;
+}
+
+.center
+{
+    height: 30px;
+    width: 30px;
+    margin-left: 738px;
+    margin-top: 340px;
+}
+
+.dot
+{
+    border-radius: 150px 150px 150px 150px;
+    background-color: white;
+    position: absolute;
+}
+
+.leftboxcenter
+{
+    height: 14px;
+    width: 14px;
+    margin-left: 150px;
+    margin-top: 345px;
+}
+
+.rightboxcenter
+{
+    height: 14px;
+    width: 14px;
+    margin-left: 1340px;
+    margin-top: 345px;
+}
