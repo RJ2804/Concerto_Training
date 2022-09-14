@@ -1,0 +1,18 @@
+body
+{
+    margin-left: 50px;
+}
+
+#cardIcon{
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    border-radius: 90%;
+    height: 14px;
+    width: 8px;
+}
+
+#navbar
+{
+    margin-bottom: 10px;
+}
