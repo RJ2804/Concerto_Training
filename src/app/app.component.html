@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-12" style="text-align:center">
+    <h1>ToDoList</h1>
+  </div>
+
+  <form #app="ngForm" (submit)="saveEmployee(app)">
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-6">
+        <input type="text" #task="ngModel" [(ngModel)]="inputBox" ngModel name="task"  placeholder="what needs to be done?">
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="card" style="margin-top: 50px; background-color: antiquewhite;">
+  <div class="card-body">
+
+    <h4 *ngFor="let task of dataSet">
+      <div class="row">
+        <div class="col-md-8">
+          <app-tasks [taskName]="task"></app-tasks>
+        </div>
+        <div class="col-md-2" *ngIf="task.isValid">
+          <button class="btn btn-danger" (click)="deleteTask(task)">Remove</button>
+        </div>
+        <div class="col-md-2" *ngIf="!task.isValid">
+          <button class="btn btn-danger" [disabled]="true">Remove</button>
+        </div>
+      </div>
+    </h4>
+  </div>
+</div>
